@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC1CZuAVmbRYO72jjkV78H5lfNXnGvpAPQ",
-  authDomain: "romstud-feedback.firebaseapp.com",
-  projectId: "romstud-feedback",
-  storageBucket: "romstud-feedback.firebasestorage.app",
-  messagingSenderId: "847586133366",
-  appId: "1:847586133366:web:f9da388a895e22ac81e657"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID
 };
 
 // Inițializăm Firebase
