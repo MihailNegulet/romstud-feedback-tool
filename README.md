@@ -1,16 +1,93 @@
-# React + Vite
+🌍 RomStud Feedback & Rating Tool
+A modern, full-stack feedback collection platform built for RomStud, a student organization specializing in cultural travel projects across Europe. This application digitizes the feedback process, transforming it from tedious forms into an engaging, interactive experience, while providing organizers with a powerful dashboard for data analysis.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Demo: https://romstud-feedback.netlify.app/
 
-Currently, two official plugins are available:
+📸 Screenshots
+(image.png) (image-1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 The Problem & Solution
+The Challenge: Collecting feedback after large-scale student trips was often disorganized, relying on manual forms or basic surveys that lacked engagement and data visualization.
 
-## React Compiler
+The Solution: I built a custom Single Page Application (SPA) that serves two main purposes:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+For Participants: A gamified, "Glassmorphism" design interface to submit ratings (Organization, Vibe, Accommodation) and detailed reviews instantly.
 
-## Expanding the ESLint configuration
+For Organizers: A secure Admin Panel to visualize data, moderate content, and export reports for future planning.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Key Features
+👤 User Interface (Client Side)
+Interactive Rating System: Custom star-rating components for granular feedback (Organization, Vibe, Logistics).
+
+Gamification: Confetti animations upon successful submission to boost user satisfaction.
+
+Responsive Design: Fully optimized for mobile devices (iPhone/Android) using modern CSS Grid and Flexbox layouts.
+
+Dynamic Media Gallery: A curated list of external project links (Vlogs, Albums, Aftermovies) with dynamic thumbnails.
+
+🛡️ Admin Dashboard (Protected)
+Secure Authentication: Firebase Auth (Email/Password) to protect sensitive data.
+
+Real-time Analytics: Visual charts (using Recharts) displaying participation trends and average scores per project.
+
+Content Moderation: Approval system (Publish/Hide) to control which testimonials appear on the public site.
+
+Data Management: Full CRUD capabilities (Create, Read, Update, Delete) and CSV Export for offline reporting.
+
+🛠️ Tech Stack
+Frontend: React.js, Vite
+
+Styling: Pure CSS3 (Custom Glassmorphism UI, Responsive Grid), Google Fonts (Poppins)
+
+Backend / Database: Google Firebase (Firestore NoSQL Database)
+
+Authentication: Firebase Auth
+
+Routing: React Router v6 (Protected Routes implementation)
+
+Deployment: Netlify (CI/CD connected to GitHub)
+
+⚙️ Installation & Setup
+If you want to run this project locally:
+
+Clone the repository
+
+Bash
+
+git clone https://github.com/MihailNegulet/romstud-feedback-tool.git
+cd romstud-feedback-tool
+Install dependencies
+
+Bash
+
+npm install
+Configure Firebase
+
+Create a project at Firebase Console.
+
+Create a file named firebase.js in /src.
+
+Add your Firebase configuration keys.
+
+Run the application
+
+Bash
+
+npm run dev
+💡 What I Learned
+Building this project helped me solidify my skills in:
+
+State Management: Handling complex form states and synchronizing them with a cloud database.
+
+Security Patterns: Implementing Protected Routes and Firebase Security Rules to prevent unauthorized access.
+
+UI/UX Design: Creating a polished "Glassmorphism" aesthetic manually with CSS (backdrop-filter, rgba colors) and ensuring perfect responsiveness on all viewports.
+
+Data Visualization: transforming raw data into meaningful insights using charts.
+
+📬 Contact
+[Mihail Negulet] - Frontend / Full-Stack Developer
+
+[[LinkedIn Profile Link](https://www.linkedin.com/in/mihail-negulet-31835983/)]
+
+[[Portfolio Website Link](https://github.com/MihailNegulet?tab=repositories)]
