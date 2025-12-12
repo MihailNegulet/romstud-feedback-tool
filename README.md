@@ -69,7 +69,7 @@ If you want to run this project locally:
 1.  **Clone the repository**
 
     ```bash
-    git clone [https://github.com/MihailNegulet/romstud-feedback-tool.git](https://github.com/MihailNegulet/romstud-feedback-tool.git)
+    git clone https://github.com/MihailNegulet/romstud-feedback-tool.git
     cd romstud-feedback-tool
     ```
 
@@ -107,5 +107,5 @@ Building this project helped me solidify my skills in:
 
 **[Mihail Negulet]** - Frontend / Full-Stack Developer
 
--   ![Linkedin](https://www.linkedin.com/in/mihail-negulet-31835983/)
--   ![GitHub](https://github.com/MihailNegulet?tab=repositories)
+-   [Linkedin](https://www.linkedin.com/in/mihail-negulet-31835983/)
+-   [GitHub](https://github.com/MihailNegulet?tab=repositories)
