@@ -1,7 +1,7 @@
 import pragaImg from '../assets/Praga.jpg';
 import balcaniadaImg from '../assets/Balcaniada.jpeg';
 import lisabonaImg from '../assets/lisabona.jpg';
-import amsterdamImg from '../assets/Amsterdam.jpg';
+import amsterdamImg from '../assets/Amsterdam.JPG';
 import cracoviaImg from '../assets/cracovia.jpeg';
 
 
