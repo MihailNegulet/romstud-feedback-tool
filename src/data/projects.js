@@ -9,7 +9,9 @@ export const projects = [
     { id: 7, name: "Revelion Atena, editia 2" },
     { id: 8, name: "Revelion Atena, editia 3" },
     { id: 9, name: "Revelion Cracovia, editia 1" },
-    { id: 10, name: "Revelion Cracovia, editia 2" }
+    { id: 10, name: "Revelion Cracovia, editia 2" },
+    { id: 11, name: "Să cucerim Praga, editia 61" },
+    { id: 12, name: "Să cucerim Praga, editia 62" },
     
 ];
 
